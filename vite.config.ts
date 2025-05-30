@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: "./",
+  base: "./", // 🔧 CỰC QUAN TRỌNG với Netlify
   plugins: [react()],
 });
+// Cấu hình này đảm bảo ứng dụng React của bạn hoạt động tốt trên Netlify
